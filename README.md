@@ -3,6 +3,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 PLZ after cloning the project folder plz run npm install --force to install dependencies
 
+this app based on https://disease.sh api
+
 ## Available Scripts
 
 In the project directory, you can run:
