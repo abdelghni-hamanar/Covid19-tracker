@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #f5f6fa;
+}
+
+.app{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.app__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px !important;
+}
+
+.app__left{
+    flex: 0.8;
+    padding-bottom: 20px;
+}
+
+.app__stats{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card{
+    margin: 0 2% !important;
+}
+
+.app__bars{
+    margin-top: 0.8rem;
+}
+
+.table{
+    margin-top: 20px;
+    overflow: scroll;
+    height: 400px;
+    color: #6a5d5d ;
+}
+
+.table tr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table td{
+    padding: 0.5rem;
+}
+
+.table tr:nth-last-of-type(odd){
+    background-color: #f3f2f8;
+}
+
+.infected{
+    border-bottom: 10px solid rgb(0, 0,255,0.5);
+}
+
+.recovered{
+    border-bottom: 10px solid rgb(0, 255,0,0.5);
+}
+
+.deaths{
+    border-bottom: 10px solid rgb(255, 0,0,0.5);
+}
+
+
+@media (max-width: 990px){
+    .app{
+        flex-direction: column;
+    }
+}
